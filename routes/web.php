@@ -10,7 +10,7 @@ Route::get('/', function () {
 });
 
 Route::get('/halo', function () {
-    return 'Halo, Sipinjam! Latihan 6 berhasil!';=
+    return 'Halo, Sipinjam! Latihan 6 berhasil!';
 });
 
 Route::get('/halo/{nama}', function ($nama) {
