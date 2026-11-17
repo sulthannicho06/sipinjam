@@ -10,7 +10,7 @@ Route::get('/', function () {
 });
 
 Route::get('/halo', function () {
-    return 'Halo, Laravel!';
+    return 'Halo, Sipinjam!';
 });
 
 Route::get('/halo/{nama}', function ($nama) {
